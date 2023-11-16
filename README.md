@@ -1,10 +1,19 @@
 # 15092025_Churnings_Customers
 Model for predicting the probability of a customer to churn using data provided for Assignment 3 in the Introduction to AI course at Ashesi University
 
-## Overview
+## Project Overview
 
-Customer churn is a critical concern for large companies, particularly in the telecom industry, as it directly impacts revenues. This project focuses on developing a churn prediction model using deep learning techniques. The primary goal is to assist telecom operators in identifying customers most likely to churn, allowing the company to take proactive measures to retain them.
+This project aims to develop a deep learning-based churn prediction model that assists telecom operators in identifying customers at high risk of churn. The model utilizes customer data to analyze patterns and relationships that can predict customer churn behavior.
 
+## Functionalities
+
+The churn prediction model provides the following functionalities:
+
+- Data Preprocessing: The model preprocesses customer data to handle missing values, outliers, and data inconsistencies, ensuring the quality of input data for the prediction task.
+- Feature Engineering: Relevant features are extracted from customer data to capture key characteristics that influence churn behavior. These features are engineered to improve the model's predictive performance.
+- Model Training: The model is trained using a deep learning algorithm, specifically a neural network architecture, to learn the underlying patterns and relationships within the customer data. The model is optimized to predict churn probabilities for individual customers accurately.
+- Churn Prediction: The trained model predicts the churn probability for new or existing customers. Based on the predicted churn probability, telecom operators can take proactive measures to retain at-risk customers and reduce churn rates.
+  
 ## Features
 
 - **Input Features:**
@@ -42,6 +51,6 @@ Customer churn is a critical concern for large companies, particularly in the te
 
 Watch the [demo video](link_to_video) for a walkthrough of the project functionalities.
 
----
+## Conclusion
 
-Replace the placeholders (`link_to_image.png`, `link_to_video`, `[Your Name]`, etc.) with the actual information for your project. If you have additional sections or details, feel free to include them in the README file.
+The customer churn prediction model offers a valuable tool for telecom operators to address customer churn and improve customer retention strategies proactively. By identifying customers at high risk of churn, companies can implement targeted interventions and loyalty programs to enhance customer satisfaction and reduce churn rates, increasing revenue and improving customer lifetime value.
