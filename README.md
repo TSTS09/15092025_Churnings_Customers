@@ -3,14 +3,14 @@ Model for predicting the probability of a customer to churn using data provided 
 
 ## Project Overview
 
-This project aims to develop a deep learning-based churn prediction model that assists telecom operators in identifying customers at high risk of churn. The model utilizes customer data to analyze patterns and relationships that can predict customer churn behavior.
+This project aims to develop a deep learning-based churn prediction model that assists telecom operators in identifying customers at high risk of churn. The model utilizes customer data to analyze patterns and relationships that can predict customer churn behaviour.
 
 ## Functionalities
 
 The churn prediction model provides the following functionalities:
 
 - Data Preprocessing: The model preprocesses customer data to handle missing values, outliers, and data inconsistencies, ensuring the quality of input data for the prediction task.
-- Feature Engineering: Relevant features are extracted from customer data to capture key characteristics that influence churn behavior. These features are engineered to improve the model's predictive performance.
+- Feature Engineering: Relevant features are extracted from customer data to capture key characteristics that influence churn behaviour. These features are engineered to improve the model's predictive performance.
 - Model Training: The model is trained using a deep learning algorithm, specifically a neural network architecture, to learn the underlying patterns and relationships within the customer data. The model is optimized to predict churn probabilities for individual customers accurately.
 - Churn Prediction: The trained model predicts the churn probability for new or existing customers. Based on the predicted churn probability, telecom operators can take proactive measures to retain at-risk customers and reduce churn rates.
   
@@ -39,7 +39,7 @@ The churn prediction model provides the following functionalities:
    streamlit run app.py
    ```
 3. **Alternatively, Interact with the deployed Web App:**
-   Open your web browser and navigate to [Churning model webiste](https://tsts09-15092025-churnings-customers-app-6osnp5.streamlit.app/) to interact with the customer churn prediction application.
+   Open your web browser and navigate to [Churning model website](https://tsts09-15092025-churnings-customers-app-6osnp5.streamlit.app/) to interact with the customer churn prediction application.
 
 ## How to Use
 
@@ -49,7 +49,7 @@ The churn prediction model provides the following functionalities:
 
 ## Demo Video
 
-Watch the [demo video](link_to_video) for a walkthrough of the project functionalities.
+Watch the [demo video](https://youtu.be/1uctjaH-qTA) for a walkthrough of the project functionalities.
 
 ## Conclusion
 
