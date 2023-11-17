@@ -33,12 +33,12 @@ The churn prediction model provides the following functionalities:
 
 ## Getting Started
 
-1. **Run the Application on the local host:**
+1. **Fork the repo from this one and create a pull request after creating a remote repo on your laptop**
+2. **Run the Application on the local host:**
    ```bash
    streamlit run app.py
    ```
-
-2. **Interact with the deployed Web App:**
+3. **Alternatively, Interact with the deployed Web App:**
    Open your web browser and navigate to [Churning model webiste](https://tsts09-15092025-churnings-customers-app-6osnp5.streamlit.app/) to interact with the customer churn prediction application.
 
 ## How to Use
