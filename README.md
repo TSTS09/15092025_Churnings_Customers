@@ -39,7 +39,7 @@ The churn prediction model provides the following functionalities:
    ```
 
 2. **Interact with the deployed Web App:**
-   Open your web browser and navigate to [http://localhost:8501](http://localhost:8501) to interact with the customer churn prediction application.
+   Open your web browser and navigate to [Churning model webiste](https://tsts09-15092025-churnings-customers-app-6osnp5.streamlit.app/) to interact with the customer churn prediction application.
 
 ## How to Use
 
