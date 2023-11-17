@@ -13,9 +13,9 @@ loaded_model = tf.keras.models.load_model('churn_model.h5')
 def predict(TotalCharges, MonthlyCharges, Tenure, Contract, PaymentMethod, OnlineSecurity, TechSupport):
    
     Deployment_data = pd.DataFrame({
-        "TotalCharges": [float(TotalCharges)],
+        "TotalCharges": [TotalCharges],
         "MonthlyCharges": [MonthlyCharges],
-        "Tenure": [float(Tenure)],
+        "Tenure": [Tenure],
         "Contract": [Contract],
         "PaymentMethod": [PaymentMethod],
         "OnlineSecurity": [OnlineSecurity],
@@ -64,13 +64,13 @@ def main():
     if st.button("Predict"):
         result = predict(TotalCharges, MonthlyCharges, Tenure,
                          Contract, PaymentMethod, OnlineSecurity, TechSupport)
-        if (result[0] > 0.2):
+        if (result[0] > 0.169):
             prediction = " is not likely to churn."
         else:
             prediction = " is likely to churn."
 
         st.success(
-            f"Customer: {Client} {prediction}")
+            f"Customer: {Client} {prediction} ")
 
         st.markdown(
             "<h3 style='color: purple; font-size: 24px;'>Confidence Factor</h3>", unsafe_allow_html=True)
